@@ -4,7 +4,7 @@ Project Description:
 
 Set up and configure a basic firewall using IPTables on a Linux server. This project involves configuring basic and advanced IPTables rules, including NAT and port forwarding, and setting up logging and monitoring.
 
-![pic_1]/screenshots/Picture1.png
+![pic_1]/screenshots/Picture1.pngxx
 
 ## 1. Install and Configure IPTables
    
