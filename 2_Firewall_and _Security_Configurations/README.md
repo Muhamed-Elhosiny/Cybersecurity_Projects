@@ -6,7 +6,7 @@ Set up and configure a basic firewall using IPTables on a Linux server. This pro
 
 ## 1. Install and Configure IPTables
    
-Before I can use IPTables to manage network traffic, I need to ensure it’s installed on your system. Basic configuration involves setting default policies to control traffic flow and establishing rules to allow necessary connections while blocking unwanted traffic.
+Before I can use IPTables to manage network traffic, I need to ensure it’s installed on my system. Basic configuration involves setting default policies to control traffic flow and establishing rules to allow necessary connections while blocking unwanted traffic.
 
 ![pic_1](screenshots/Picture1.png)
 
@@ -39,11 +39,11 @@ Port forwarding directs traffic from a specific port on the firewall to an inter
 ![pic_5](screenshots/Picture5.png)
 
 ## 3. Set Up Logging and Monitoring
-Logging and monitoring are crucial for identifying and responding to potential security issues. By enabling logging, you can track network traffic and troubleshoot issues. Fail2Ban provides automated protection by blocking suspicious IP addresses, and monitoring tools help analyze logs.
+Logging and monitoring are crucial for identifying and responding to potential security issues. By enabling logging, I can track network traffic and troubleshoot issues. Fail2Ban provides automated protection by blocking suspicious IP addresses, and monitoring tools help analyze logs.
 
 ## 3.1	Logging IPTables Events
 
-Logging IPTables events helps in tracking and analyzing network traffic and potential security issues. By logging dropped packets, you can review and understand why certain traffic is being blocked, which aids in troubleshooting and refining firewall rules.
+Logging IPTables events helps in tracking and analyzing network traffic and potential security issues. By logging dropped packets, I can review and understand why certain traffic is being blocked, which aids in troubleshooting and refining firewall rules.
 
 ![pic_6](screenshots/Picture6.png)
 
@@ -77,7 +77,7 @@ sudo systemctl enable fail2ban: This enables the Fail2Ban service to start autom
 
 ## 3.3 Monitor Logs with Fail2Ban
 
-Monitoring Fail2Ban’s status ensures that it is working correctly and provides insights into any banned IP addresses. This helps verify that your firewall and security rules are effective and provides additional protection against potential threats.
+Monitoring Fail2Ban’s status ensures that it is working correctly and provides insights into any banned IP addresses. This helps verify that my firewall and security rules are effective and provides additional protection against potential threats.
 
 ![pic_11](screenshots/Picture11.png)
  
