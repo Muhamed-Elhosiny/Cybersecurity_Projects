@@ -6,7 +6,7 @@ Set up and configure a basic firewall using IPTables on a Linux server. This pro
 
 ## 1. Install and Configure IPTables
    
-Before you can use IPTables to manage network traffic, you need to ensure it’s installed on your system. Basic configuration involves setting default policies to control traffic flow and establishing rules to allow necessary connections while blocking unwanted traffic.
+Before I can use IPTables to manage network traffic, I need to ensure it’s installed on your system. Basic configuration involves setting default policies to control traffic flow and establishing rules to allow necessary connections while blocking unwanted traffic.
 
 
 
