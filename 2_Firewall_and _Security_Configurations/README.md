@@ -58,7 +58,9 @@ Fail2Ban Configuration (jail.local)
 The jail.local file is where I configure how Fail2Ban behaves, such as specifying which services to protect and setting the ban time for blocking IP addresses. To edit this file in the nano text editor, I follow these steps:
 
 •	Manually Create the Directory: If the /etc/fail2ban/ directory does not exist, I can create it manually.
+
 •	Create the jail.local File: After creating the directory, I can then create the jail.local file.
+
 •	Edit in Nano Text Editor: I open the jail.local file in the nano text editor to configure Fail2Ban.
 
 ![pic_8](screenshots/Picture8.png)
@@ -68,6 +70,7 @@ sudo nano /etc/fail2ban/jail.local: This opens the Fail2Ban configuration file (
 ![pic_9](screenshots/Picture9.png)
 
 sudo systemctl start fail2ban: This starts the Fail2Ban service, making it actively monitor the system for malicious activity according to the configuration settings.
+
 sudo systemctl enable fail2ban: This enables the Fail2Ban service to start automatically at boot time, ensuring that the protection is always active even after the system is restarted.
 
 ![pic_10](screenshots/Picture10.png)
