@@ -1,6 +1,6 @@
 ## Implementing a Firewall with IPTables on Linux
 
-Project Description:
+## Project Description:
 
 Set up and configure a basic firewall using IPTables on a Linux server. This project involves configuring basic and advanced IPTables rules, including NAT and port forwarding, and setting up logging and monitoring.
 
@@ -24,6 +24,7 @@ In this project, I configured a basic set of iptables rules to secure a Linux sy
 This set of commands forms a foundational firewall setup that can be expanded based on specific network security requirements.
 
 ## 2. Implement Advanced Rules
+
 Advanced IPTables rules involve configuring Network Address Translation (NAT) to enable multiple devices to share a single public IP address, setting up port forwarding to allow external access to internal services, and applying traffic shaping to manage bandwidth and performance.
 
 ## 2.1 NAT (Network Address Translation) Configuration
@@ -53,15 +54,13 @@ Fail2Ban adds an additional layer of security by automatically blocking IP addre
 
 ![pic_7](screenshots/Picture7.png)
 
-Fail2Ban Configuration (jail.local)
+## Fail2Ban Configuration (jail.local)
 
 The jail.local file is where I configure how Fail2Ban behaves, such as specifying which services to protect and setting the ban time for blocking IP addresses. To edit this file in the nano text editor, I follow these steps:
 
-•	Manually Create the Directory: If the /etc/fail2ban/ directory does not exist, I can create it manually.
-
-•	Create the jail.local File: After creating the directory, I can then create the jail.local file.
-
-•	Edit in Nano Text Editor: I open the jail.local file in the nano text editor to configure Fail2Ban.
+•	Manually Created the Directory: If the /etc/fail2ban/.
+•	Created the jail.local File: After creating the directory.
+•	I open the jail.local file in the nano text editor to configure Fail2Ban.
 
 ![pic_8](screenshots/Picture8.png)
 
