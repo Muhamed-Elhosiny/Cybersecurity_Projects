@@ -59,7 +59,9 @@ Fail2Ban adds an additional layer of security by automatically blocking IP addre
 The jail.local file is where I configure how Fail2Ban behaves, such as specifying which services to protect and setting the ban time for blocking IP addresses. To edit this file in the nano text editor, I follow these steps:
 
 •	Manually Created the Directory: If the /etc/fail2ban/.
+
 •	Created the jail.local File: After creating the directory.
+
 •	I open the jail.local file in the nano text editor to configure Fail2Ban.
 
 ![pic_8](screenshots/Picture8.png)
