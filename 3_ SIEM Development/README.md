@@ -48,6 +48,67 @@ Because the Elasticsearch is not installed, I tried reinstalling it:
 
 ![image](https://github.com/user-attachments/assets/fe90d8b5-a0e7-4217-8c3d-dacdea9c7023)
 
+![image](https://github.com/user-attachments/assets/0976f6c7-017b-4280-84bc-9af4254da4fd)
+
+•	Start and enable the Kibana service:
+
+![image](https://github.com/user-attachments/assets/a8daf505-7e37-4445-b488-fc95e6e6be4e)
+
+Access Kibana: Once Kibana is installed and running, you can access it via your web browser at:http://localhost:5601.
+
+![image](https://github.com/user-attachments/assets/0eb67f17-c410-4d73-931c-106068b34564)
+
+## 2. Configure Logstash
+
+   •	I Created a configuration file for Logstash:
+
+   sudo nano /etc/logstash/conf.d/logstash-simple.conf
+
+   •	I Added the following configuration to collect logs from a file and send them to Elasticsearch:
+
+   ![image](https://github.com/user-attachments/assets/61f37961-b595-466d-9ea0-ea478695dae6)
+
+  ## 2.2 Restart Logstash
+
+  •	Restart Logstash to apply the new configuration:
+
+# sudo systemctl restart logstash
+
+## 3. Access and Use Kibana
+
+3.1 Configure Index Patterns in Kibana
+•	Open Kibana in your web browser at http://localhost:5601.
+•	Go to Management > Stack Management > Index Patterns > Create Index Pattern.)?(
+•	Enter syslog-* as the index pattern and select the default time field (@timestamp).
+3.2 Create Basic Dashboards
+•	Go to Discover to view the logs that are being indexed.
+•	Create visualizations and dashboards to display your log data by navigating to Visualize Library and Dashboard.
+## 4. Analyze and Document
+
+## 4.1 Review Captured Logs
+•	In Kibana’s Discover tab, review the logs collected from /var/log/syslog.
+•	Use filters and search to find specific log entries and patterns.
+## 4.2 Document Your Findings
+•	Write a brief report summarizing the setup process.
+•	Include screenshots of your Kibana dashboards and any interesting findings from the log analysis.
+## Tools Used
+•	Elasticsearch: Stores and indexes log data.
+•	Logstash: Processes and sends logs to Elasticsearch.
+•	Kibana: Visualizes log data and provides dashboards.
+•	Log Files: /var/log/syslog used for demonstration.
+
+## Conclusion
+This project provides a foundational introduction to setting up and using the ELK Stack for basic log management and visualization. By following these steps, you’ll gain hands-on experience with configuring Elasticsearch, Logstash, and Kibana, as well as understanding how to collect and analyze logs effectively. This simplified approach is ideal for entry-level experience and builds a solid foundation for more advanced SIEM configurations in the future.
+
+
+
+
+
+
+   
+
+
+
 
 
 
