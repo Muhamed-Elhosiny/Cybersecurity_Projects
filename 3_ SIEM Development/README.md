@@ -84,7 +84,7 @@ Access Kibana: Once Kibana is installed and running, you can access it via your 
 
 •	Enter syslog-* as the index pattern and select the default time field (@timestamp).
 
-3.2 Create Basic Dashboards
+## 3.2 Create Basic Dashboards
 
 •	Go to Discover to view the logs that are being indexed.
 •	Create visualizations and dashboards to display your log data by navigating to Visualize Library and Dashboard.
@@ -102,9 +102,13 @@ Access Kibana: Once Kibana is installed and running, you can access it via your 
 •	Include screenshots of your Kibana dashboards and any interesting findings from the log analysis.
 
 ## Tools Used
+
 •	Elasticsearch: Stores and indexes log data.
+
 •	Logstash: Processes and sends logs to Elasticsearch.
+
 •	Kibana: Visualizes log data and provides dashboards.
+
 •	Log Files: /var/log/syslog used for demonstration.
 
 ## Conclusion
