@@ -77,20 +77,30 @@ Access Kibana: Once Kibana is installed and running, you can access it via your 
 ## 3. Access and Use Kibana
 
 3.1 Configure Index Patterns in Kibana
+
 •	Open Kibana in your web browser at http://localhost:5601.
-•	Go to Management > Stack Management > Index Patterns > Create Index Pattern.)?(
+
+•	Go to Management > Stack Management > Index Patterns > Create Index Pattern.
+
 •	Enter syslog-* as the index pattern and select the default time field (@timestamp).
+
 3.2 Create Basic Dashboards
+
 •	Go to Discover to view the logs that are being indexed.
 •	Create visualizations and dashboards to display your log data by navigating to Visualize Library and Dashboard.
 ## 4. Analyze and Document
 
 ## 4.1 Review Captured Logs
 •	In Kibana’s Discover tab, review the logs collected from /var/log/syslog.
+
 •	Use filters and search to find specific log entries and patterns.
+
 ## 4.2 Document Your Findings
+
 •	Write a brief report summarizing the setup process.
+
 •	Include screenshots of your Kibana dashboards and any interesting findings from the log analysis.
+
 ## Tools Used
 •	Elasticsearch: Stores and indexes log data.
 •	Logstash: Processes and sends logs to Elasticsearch.
