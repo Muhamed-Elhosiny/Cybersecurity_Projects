@@ -2,7 +2,7 @@
 # Network Traffic Analysis Using Tcpdump and Wireshark
 
 ## Objective
-This project demonstrates my ability to capture and analyze network traffic using `tcpdump` for packet capture and Wireshark for detailed analysis.c
+This project demonstrates capturing and analyzing network traffic using `tcpdump` for packet capture and Wireshark for detailed analysis.c
 
 ## Workflow
 
@@ -50,4 +50,4 @@ The capture includes a series of packets in response to the ICMP echo request, i
 In this particular capture, no significant anomalies were observed. All packets appear to be consistent with normal ICMP traffic. However, in different scenarios, anomalies such as packet loss, high latency, or malformed packets could be identified using similar techniques.
 
 ## Conclusion
-This project showcases my proficiency in using tcpdump for network traffic capture and Wireshark for detailed traffic analysis. The ability to troubleshoot and analyze network issues is crucial for maintaining secure and efficient systems.
+This project showcases the ability fo using tcpdump for network traffic capture and Wireshark for detailed traffic analysis. The ability to troubleshoot and analyze network issues is crucial for maintaining secure and efficient systems.
