@@ -50,7 +50,7 @@ o	Security Devices: Firewalls, Intrusion Detection Systems (IDS), VPN gateways.
 
 ### Step 1: Identify Assets and Their Importance
 
-####•	Critical Assets:
+#### •	Critical Assets:
 
 o	Customer Database: Contains sensitive customer information.
 o	Email Servers: Handles all internal and external communications.
