@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/510b9357-13e4-4671-a717-b5846bde56d6)# Security Risk Assessment and Network Hardening Implementation
+# Security Risk Assessment and Network Hardening Implementation
 
 ## 1. Project Overview 
 
@@ -30,7 +30,7 @@
 
 •	Network Size: 200 employees, multiple offices across Europe.
 
-•	IT Infrastructure:
+### •	IT Infrastructure:
 
 o	Network: LAN, WAN, and VPN.
 
@@ -130,7 +130,7 @@ o	Place the DNS server and web server on separate VLANs to minimize exposure.
 
 ### 2. Firewall Configuration
 
-####•	Firewall Rules:
+#### •	Firewall Rules:
 
 o	DNS Server (Port 53): Allow only necessary traffic (e.g., from internal network).
 
