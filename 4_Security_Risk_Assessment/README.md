@@ -2,7 +2,7 @@
 
 ## 1. Project Overview
 
-## Objective:
+### Objective:
 
 •	Perform a comprehensive security risk assessment on a corporate network.
 
