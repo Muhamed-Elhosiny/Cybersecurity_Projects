@@ -1,8 +1,8 @@
-##  Security Risk Assessment and Network Hardening Implementation
+# Security Risk Assessment and Network Hardening Implementation
 
 ## 1. Project Overview
 
-# Objective:
+## Objective:
 
 •	Perform a comprehensive security risk assessment on a corporate network.
 
