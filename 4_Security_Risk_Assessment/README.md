@@ -61,7 +61,9 @@ o	Web Servers: Public-facing servers hosting company applications.
 ## Step 2: Identify Threats and Vulnerabilities
 
 •	Threat Source 1: External attackers (e.g., hackers, cybercriminals).
+
 •	Threat Source 2: Insider threats (e.g., disgruntled employees).
+
 •	Threat Source 3: Network misconfigurations (e.g., unpatched servers).
 
 ## Step 3: Vulnerability Scanning
