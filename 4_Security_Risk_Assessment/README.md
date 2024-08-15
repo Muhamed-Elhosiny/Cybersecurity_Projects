@@ -1,6 +1,6 @@
 ![image](https://github.com/user-attachments/assets/510b9357-13e4-4671-a717-b5846bde56d6)# Security Risk Assessment and Network Hardening Implementation
 
-## 1. Project Overview
+## 1. Project Overview 
 
 ### Objective:
 
