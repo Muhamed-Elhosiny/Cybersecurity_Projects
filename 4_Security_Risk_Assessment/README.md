@@ -70,7 +70,7 @@ o	Web Servers: Public-facing servers hosting company applications.
 
 # Network security assessment project using Nmap. 
 
-We are performing a network security assessment for a small business. Our objective is to identify open ports, services, and potential vulnerabilities on the company's network. You will use Nmap to conduct this assessment.
+We are performing a network security assessment for a small business. Our objective is to identify open ports, services, and potential vulnerabilities on the company's network. We will use Nmap to conduct this assessment.
 
 ## 1. Define our Scope
    
