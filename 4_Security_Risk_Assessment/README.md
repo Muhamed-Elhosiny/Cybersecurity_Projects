@@ -1,6 +1,6 @@
 # Security Risk Assessment and Network Hardening Implementation
 
-## 1. Project Overview 
+## 1. Project Overview  
 
 ### Objective:
 
